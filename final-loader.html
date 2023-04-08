@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TalkEmma</title>
+  </head>
+
+  <body>
+    <div id="page">
+      <main id="main">
+        <div class="final-container">
+          <div class="container">
+            <div class="header">
+              <h1>Creating Anima...</h1>
+              <h2>100% completed</h2>
+            </div>
+            <progress class="progress-bar" value="100" max="100"></progress>
+            <div class="mr-b-2">
+              <svg
+                width="100"
+                class="CircularProgressbar"
+                viewBox="0 0 100 100"
+                data-test-id="CircularProgressbar"
+              >
+                <path
+                  class="CircularProgressbar-trail"
+                  d="
+                M 50,50
+                m 0,-48
+                a 48,48 0 1 1 0,96
+                a 48,48 0 1 1 0,-96
+              "
+                  stroke-width="4"
+                  fill-opacity="0"
+                  style="
+                    stroke-dasharray: 301.593px, 301.593px;
+                    stroke-dashoffset: 0px;
+                  "
+                ></path>
+                <path
+                  class="CircularProgressbar-path"
+                  d="
+                M 50,50
+                m 0,-48
+                a 48,48 0 1 1 0,96
+                a 48,48 0 1 1 0,-96
+              "
+                  stroke-width="4"
+                  fill-opacity="0"
+                  style="
+                    stroke: rgb(84, 88, 247);
+                    stroke-dasharray: 301.593px, 301.593px;
+                    stroke-dashoffset: 0px;
+                  "
+                ></path>
+                <text
+                  class="CircularProgressbar-text"
+                  x="50"
+                  y="50"
+                  style="fill: rgb(255, 255, 255)"
+                >
+                  100%
+                </text>
+              </svg>
+              <p>Your Anima is ready!</p>
+              <button class="next-btn m-t">Next</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

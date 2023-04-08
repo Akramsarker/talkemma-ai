@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TalkEmma</title>
+</head>
+
+<body>
+  <div id="page">
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html">TalkEmma</a>
+            </div>
+            <div class="navlink">
+                <a href="/app.html">app</a>
+                <a href="/pricing.html">pricing</a>
+                <a class="sign-in" href="/login.html">sign in</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+      <div id="pricing-plan">
+        <div class="container">
+            <div class="pricing">
+                <div class="pricing-card">
+                  <h4 class="card-title">Basic</h4>
+                  <p class="card-price"><span>$ </span>10</p>
+                  <p>/ month</p>
+                  <div class="plan">
+                    <div></div>
+                    <p>Plan</p>
+                    <div></div>
+                  </div>
+                  <p>100 Art Credit</p>
+                  <p>Downloadable Art</p>
+                  <!-- <p>8 Art Style Available</p> -->
+                  <button class="btn" @click="subscribeBasic()">Subscribe</button>
+                </div>
+                <div class="pricing-card">
+                  <h4 class="card-title">Standard</h4>
+                  <p class="card-price"><span>$ </span>20</p>
+                  <p>/ month</p>
+                  <div class="plan">
+                    <div></div>
+                    <p>Plan</p>
+                    <div></div>
+                  </div>
+                  <p>220 Art Credit</p>
+                  <p>Downloadable Art</p>
+                  <!-- <p>5 Art Style Available</p> -->
+                  <button class="btn" @click="subscribeStandard()">Subscribe</button>
+                </div>
+                <div class="pricing-card">
+                  <h4 class="card-title">Premium</h4>
+                  <p class="card-price"><span>$ </span>30</p>
+                  <p>/ month</p>
+                  <div class="plan">
+                    <div></div>
+                    <p>Plan</p>
+                    <div></div>
+                  </div>
+                  <p>340 Art Credit</p>
+                  <p>Downloadable Art</p>
+                  <!-- <p>12 Art Style Available</p> -->
+                  <button class="btn" @click="subscribePremium()">Subscribe</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <h4 class="footer-title">©TalkEmma <span>✦</span> CONNEKT STUDIO</h4>
+            <div class="footer-links">
+                <a href="/about-us">about us</a>
+                <a href="/terms-policy">term & policy</a>
+                <a href="/design-inspiration">design inspiration</a>
+                <a href="/3d-model">3d model from</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
